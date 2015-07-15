@@ -2,4 +2,28 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #{title}
+  canvas#canvas(width="400", height="300")
+  .row
+    .shape 
+      select.shapes
+        option(value="circle") Circle
+        option(value="square") Square
+    .color
+      input.color
+    .radius 
+      label(for="radius") Radius
+      input(type="number", id="radius")
+    .width
+      label(for="width") Width 
+      input(type="number", id="width")
+    .height
+      label(for="height") Height 
+      input(type="number", id="height")
+  .row
+    .clearAll
+      button.clear-all Clear All Shapes!
+    .randomColor
+      button.random-color Random Colors!
+    .randomObjects
+      button.random-objects Randomizzze!
+  

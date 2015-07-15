@@ -6,3 +6,65 @@ body {
 a {
   color: #00B7FF;
 }
+
+canvas {
+  margin: 0 auto;
+  border: 2px solid black;
+}
+
+.row {
+  width: 80%;
+  height: 7vh;
+}
+
+select {
+  width: 80%;
+  display: inline-block;
+}
+
+.shape {
+  width: 10%;
+  display: inline-block;
+}
+
+.width {
+  width: 15%;
+  display: inline-block;
+}
+input {
+  width: 50%;
+}
+
+input.color {
+  width: 70%;
+}
+
+.height {
+  width: 15%;
+  display: inline-block;
+}
+
+.radius {
+  width: 15%;
+  display: inline-block;
+}
+
+.color {
+  width: 15%;
+  display: inline-block;
+}
+
+.clearAll {
+  width: 15%;
+  display: inline-block;
+}
+
+.randomColor {
+  width: 15%;
+  display: inline-block;
+}
+
+.randomObjects {
+  width: 15%;
+  display: inline-block;
+}
